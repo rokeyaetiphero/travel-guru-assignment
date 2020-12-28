@@ -1,7 +1,7 @@
 import React from 'react';
-import {Swiper} from 'swiper/react';
 import './Fontpage.css';
 import 'swiper/swiper.scss';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Fontpage = () => {
     var swiper = new Swiper('.swiper-container', {
